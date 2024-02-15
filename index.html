@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <!-- <link rel="stylesheet" href="all.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Seminar8</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <form action="">
+            <label for="name-input">Имя</label>
+            <input type="text" name="name-input" id="name-input" required autofocus  class="fa-solid fa-user"/><br>
+            <label for="email-input">E-mail</label>
+            <input type="email" name="email-input" id="email-input" required  class="fa-light fa-square-envelope"/><br>
+            <label for="password-input">Пароль</label>
+            <input type="password" name="password-input" id="password-input" required class="fa-duotone fa-lock" /><br>
+            
+            <label>Возраст:</label>
+            <input type="age-input" name="age-input" required class="fa-light fa-stopwatch-20"/><br>
+            
+            <label for="born-input">Дата рождения:</label>
+            <input type="date" name="born-input" id="born-input" required class="fa-solid fa-calendar-days" /><br>
+            
+            <label for="phone-input">Номер телефона:</label>
+            <br>
+            <input type="number" name="phone-input" id="phone-input" required class="fa-duotone fa-phone" /><br>
+            
+            <label for="volume"></label>
+            <input type="range" name="volume" id="volume" min="0" max="11" required class="fa-thin fa-sliders"/><br>
+            
+            <label for="checkbox">Согласиться с условиями</label>
+            <input type="checkbox" id="checkbox" name="checkbox" required class="fa-thin fa-check"><br>
+
+            <button type="submit">Отправить</button>
+        </form>
+    </main>
+</body>
+</html>

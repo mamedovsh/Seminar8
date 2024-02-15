@@ -1,0 +1,81 @@
+
+
+
+
+/* .i{
+    width: 20px;
+    height: 20px;
+    color: red;
+} */
+.fa-sliders{
+    /* margin-left: 40px; */
+    color: blueviolet;
+
+}
+
+.fa-phone{
+    font-family: 'FontAwesome';
+    border-color: brown;
+    color: blue;
+    width: 120px;
+    height: 15px;
+}
+.input__phone-input{
+    display: none;
+    font-family: 'FontAwesome';
+    border-color: brown;
+    color: blue;
+    display:inline-block;
+    position: relative
+}
+.input__born-input{
+    display: none;
+}
+.fa-calendar-days::before{
+    color: blue;
+    border-color: brown;
+}
+.fa-stopwatch-20{
+    width: 20px;
+    height: 20px;
+    color: blue;
+    border-color: brown;
+}
+}
+.fa-lock{
+
+}
+.fa-check{ 
+   /* width: 10px;
+   height: 10px;
+ */
+
+}
+.input__checkbox{
+    display: none;
+    border-color: rgb(255, 0, 132);
+}
+.input__volume{
+    display: none;
+}
+.input__name-input{
+    display: none;
+}
+.fa-user{
+    border-color: brown;
+    color: blue;
+}
+.input__email-input{
+    display: none;  
+}
+.fa-square-envelope{
+    border-color: brown;
+    color: blue;
+}
+.input__password-input{
+    display: none; 
+}
+.fa-lock{
+    border-color: brown;
+    color: blue;
+}
